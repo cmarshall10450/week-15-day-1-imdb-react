@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.film-box {
+  background: #eee;
+  padding: 1rem;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 1rem 2rem;
+  border: none;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  background: #4285f4;
+  color: #fff;
+}
+
+.film-list {
+  margin: 2rem 0;
+}
+
+.film {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
